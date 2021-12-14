@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-postcss`],
+  plugins: [`gatsby-plugin-postcss`, `gatsby-plugin-react-helmet`],
+  siteMetadata: {
+    title: 'Codigo Facilito',
+    url: 'https://codigofacilito.com',
+    descripcion: 'Buy and aquire SWAG from codigofacilito',
+  },
 }
